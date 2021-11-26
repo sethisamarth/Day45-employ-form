@@ -47,3 +47,45 @@ body {
    emp-payroll { color: #42515f; }
    
    * { box-sizing: border-box;}
+
+   .row-content { 
+    display: flex; 
+    border: 0px solid green;
+    flex-direction: row; 
+    margin-bottom: 10px; 
+    align-items: center;
+    }
+    
+    .label {
+    
+    min-width: 140px;
+    
+    }
+    
+    label {
+    
+    padding: 12px 12px 12px 0; 
+    display: inline-block;
+    
+    }
+    
+    .text {
+    
+    font-size: 16px; 
+    color: #42515f;
+    opacity: 1; 
+    font-family: Roboto;
+    }
+    
+    .input {
+    
+    width: 100%;
+    
+    padding: 12px;
+    
+    border: 1px solid #ccc;
+    
+    border-radius: 4px;
+    
+    resize: vertical;
+    }
